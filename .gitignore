@@ -6,4 +6,16 @@ SecurityEval/
 semgrep-rules/
 archived_scans/
 runs/
-feature_table.csv
+/feature_table.csv
+
+# Local manuscripts and internal publication materials
+*.pdf
+*.tex
+*.zip
+*.docx
+*.doc
+*.bib
+/manuscripts/
+/paper/
+/FINAL_PUBLICATION_PACKAGE/
+/INTERNAL_AUTHOR_APPROVAL/
