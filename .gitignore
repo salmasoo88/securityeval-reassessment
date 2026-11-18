@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+SecurityEval/
+semgrep-rules/
+archived_scans/
+runs/
+feature_table.csv
