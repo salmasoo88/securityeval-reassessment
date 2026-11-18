@@ -27,7 +27,7 @@ Use fresh output paths. Evaluation saves predictions, scores, folds, thresholds,
 
 ## Scanner checks and interpretation
 
-Run scripts with --help for their required inputs. Scanner report comparisons require additional analyzer outputs or archived reports. Fresh Linux scans use Bandit 1.9.4, Semgrep 1.184.0, and semgrep/semgrep-rules at 16b9e6d45f10649f6a531ec4838ed9924372c3bc, using code/run_static_analysis.py. CodeQL comparison input requirements are listed by code/compare_codeql_linux.py --help.
+Run scripts with --help for their required inputs. Archived reports, fresh reports and replay logs are supplied under inputs/archived_scans/ and scanner_evidence/. Fresh Linux scans use Bandit 1.9.4, Semgrep 1.184.0, and semgrep/semgrep-rules at 16b9e6d45f10649f6a531ec4838ed9924372c3bc, using code/run_static_analysis.py. CodeQL comparison input requirements are listed by code/compare_codeql_linux.py --help.
 
 Precision measures agreement with file-level benchmark labels. Confirming that alerts identify the intended weaknesses requires independent review. Classifier hyperparameters are fixed, while inner validation selects thresholds and, in the joint procedure, classifier identity.
 
@@ -36,3 +36,7 @@ Data derives from [SecurityEval](https://github.com/s2e-lab/SecurityEval) and sc
 ## Reference validation
 
 The published code passed all eight evaluation tests. The source-restoration command recreates all 260 records of the reference model-input table. Additional scanner comparisons require their archived or fresh reports as described above.
+
+## Reproduce the complete experimental workflow
+
+See [scanner evidence and experiment instructions](scanner_evidence/README.md) for rebuilding the feature table from the archived reports, running all split seeds, matched transfer, attribution sensitivity, review-workload analyses, and replaying the verified Linux Semgrep and CodeQL comparisons. The instructions also distinguish new scanner runs from decoding the saved evidence and record the remaining CodeQL extraction limitation.

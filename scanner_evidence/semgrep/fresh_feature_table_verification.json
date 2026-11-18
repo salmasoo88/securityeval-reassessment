@@ -1,0 +1,7 @@
+{
+  "fresh_bandit_version": "1.9.4",
+  "fresh_semgrep_version": "1.184.0",
+  "fresh_sha256": "f076ed9bc99cb8b3d5946c3b75603911b4c0f4c5e3f07a2b410d0ccaf54239fc",
+  "archived_sha256": "f076ed9bc99cb8b3d5946c3b75603911b4c0f4c5e3f07a2b410d0ccaf54239fc",
+  "exact_bytes": true
+}

@@ -1,0 +1,105 @@
+{
+  "archive_commit": "ba11cdd3e04035a9057412d7e677b1d4f5e2e41a",
+  "queries": [
+    {
+      "generator": "copilot",
+      "query": "CWE-079/ReflectedXss.ql",
+      "status": "ok",
+      "fresh_alerts": 11,
+      "archived_alerts": 11,
+      "exact_location_matches": 10,
+      "after_source_line_translation_matches": 11,
+      "fresh_only_files": [],
+      "archive_only_files": [],
+      "fresh_only_exact_rows": [
+        [
+          "Reflected server-side cross-site scripting",
+          "error",
+          "/CWE-020/codeql_1.py",
+          10,
+          30,
+          10,
+          37
+        ]
+      ],
+      "archive_only_exact_rows": [
+        [
+          "Reflected server-side cross-site scripting",
+          "error",
+          "/CWE-020/codeql_1.py",
+          11,
+          30,
+          11,
+          37
+        ]
+      ]
+    },
+    {
+      "generator": "copilot",
+      "query": "CWE-022/PathInjection.ql",
+      "status": "ok",
+      "fresh_alerts": 4,
+      "archived_alerts": 4,
+      "exact_location_matches": 4,
+      "after_source_line_translation_matches": 4,
+      "fresh_only_files": [],
+      "archive_only_files": [],
+      "fresh_only_exact_rows": [],
+      "archive_only_exact_rows": []
+    },
+    {
+      "generator": "incoder",
+      "query": "CWE-079/ReflectedXss.ql",
+      "status": "ok",
+      "fresh_alerts": 7,
+      "archived_alerts": 7,
+      "exact_location_matches": 7,
+      "after_source_line_translation_matches": 7,
+      "fresh_only_files": [],
+      "archive_only_files": [],
+      "fresh_only_exact_rows": [],
+      "archive_only_exact_rows": []
+    },
+    {
+      "generator": "incoder",
+      "query": "CWE-022/PathInjection.ql",
+      "status": "ok",
+      "fresh_alerts": 4,
+      "archived_alerts": 4,
+      "exact_location_matches": 4,
+      "after_source_line_translation_matches": 4,
+      "fresh_only_files": [],
+      "archive_only_files": [],
+      "fresh_only_exact_rows": [],
+      "archive_only_exact_rows": []
+    }
+  ],
+  "copilot_changed_files": [
+    "Testcases_Copilot/CWE-020/author_1.py",
+    "Testcases_Copilot/CWE-020/author_2.py",
+    "Testcases_Copilot/CWE-020/codeql_1.py",
+    "Testcases_Copilot/CWE-020/codeql_2.py",
+    "Testcases_Copilot/CWE-020/codeql_3.py",
+    "Testcases_Copilot/CWE-020/codeql_4.py",
+    "Testcases_Copilot/CWE-022/author_1.py",
+    "Testcases_Copilot/CWE-022/author_2.py",
+    "Testcases_Copilot/CWE-022/codeql_1.py",
+    "Testcases_Copilot/CWE-022/codeql_2.py",
+    "Testcases_Copilot/CWE-078/author_1.py",
+    "Testcases_Copilot/CWE-078/codeql_1.py",
+    "Testcases_Copilot/CWE-079/codeql_1.py",
+    "Testcases_Copilot/CWE-079/codeql_2.py",
+    "Testcases_Copilot/CWE-079/sonar_1.py",
+    "Testcases_Copilot/CWE-297/sonar_1.py",
+    "Testcases_Copilot/CWE-297/sonar_2.py",
+    "Testcases_Copilot/CWE-297/sonar_3.py",
+    "Testcases_Copilot/CWE-297/sonar_4.py",
+    "Testcases_Copilot/CWE-321/author_1.py"
+  ],
+  "incoder_changed_files": [
+    "Testcases_InCoder/CWE-297/sonar_2.py",
+    "Testcases_InCoder/CWE-297/sonar_3.py",
+    "Testcases_InCoder/CWE-297/sonar_4.py",
+    "Testcases_InCoder/CWE-321/author_1.py"
+  ]
+}

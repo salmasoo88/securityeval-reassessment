@@ -1,0 +1,541 @@
+[    0.826721] ACPI: setting ELCR to 0200 (from 0c00)
+[    1.122441] mtrr: your CPUs had inconsistent fixed MTRR settings
+[    1.122660] mtrr: your CPUs had inconsistent variable MTRR settings
+[    1.123441] mtrr: your CPUs had inconsistent MTRRdefType settings
+[    1.911950] amd_pstate: the _CPC object is not present in SBIOS or ACPI disabled
+Linux (none) 6.18.60-0-virt #1-Alpine SMP PREEMPT_DYNAMIC 2026-11-01 07:26:31 x86_64 GNU/Linux
+Python 3.9.4
+{
+  "productName" : "CodeQL",
+  "vendor" : "GitHub",
+  "version" : "2.10.0",
+  "sha" : "8a9c76c7001a83d4695f38f6e74a2db60746d1a5",
+  "branches" : [
+    "codeql-cli-2.10.0"
+  ],
+  "copyright" : "Copyright (C) 2019-2022 GitHub, Inc.",
+  "unpackedLocation" : "/study/codeql",
+  "configFileLocation" : "/root/.config/codeql/config",
+  "configFileFound" : false
+}
+PORTABLE_WINDOWS_EXTRACTED_DATABASES
+DATABASE_REUSED_Copilot
+DATABASE_REUSED_InCoder
+ANALYZE_START_Copilot
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-020-ExternalAPIs/ExternalAPIsUsedWithUntrustedData.ql.
+[1/40] Found in cache: /study/queries/python/ql/src/Security/CWE-020-ExternalAPIs/ExternalAPIsUsedWithUntrustedData.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-020-ExternalAPIs/UntrustedDataToExternalAPI.ql.
+[2/40] Found in cache: /study/queries/python/ql/src/Security/CWE-020-ExternalAPIs/UntrustedDataToExternalAPI.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-020/IncompleteHostnameRegExp.ql.
+[3/40] Found in cache: /study/queries/python/ql/src/Security/CWE-020/IncompleteHostnameRegExp.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-020/IncompleteUrlSubstringSanitization.ql.
+[4/40] Found in cache: /study/queries/python/ql/src/Security/CWE-020/IncompleteUrlSubstringSanitization.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-022/PathInjection.ql.
+[5/40] Found in cache: /study/queries/python/ql/src/Security/CWE-022/PathInjection.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-022/TarSlip.ql.
+[6/40] Found in cache: /study/queries/python/ql/src/Security/CWE-022/TarSlip.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-078/CommandInjection.ql.
+[7/40] Found in cache: /study/queries/python/ql/src/Security/CWE-078/CommandInjection.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-079/Jinja2WithoutEscaping.ql.
+[8/40] Found in cache: /study/queries/python/ql/src/Security/CWE-079/Jinja2WithoutEscaping.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-079/ReflectedXss.ql.
+[9/40] Found in cache: /study/queries/python/ql/src/Security/CWE-079/ReflectedXss.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-089/SqlInjection.ql.
+[10/40] Found in cache: /study/queries/python/ql/src/Security/CWE-089/SqlInjection.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-090/LdapInjection.ql.
+[11/40] Found in cache: /study/queries/python/ql/src/Security/CWE-090/LdapInjection.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-094/CodeInjection.ql.
+[12/40] Found in cache: /study/queries/python/ql/src/Security/CWE-094/CodeInjection.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-116/BadTagFilter.ql.
+[13/40] Found in cache: /study/queries/python/ql/src/Security/CWE-116/BadTagFilter.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-117/LogInjection.ql.
+[14/40] Found in cache: /study/queries/python/ql/src/Security/CWE-117/LogInjection.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-209/StackTraceExposure.ql.
+[15/40] Found in cache: /study/queries/python/ql/src/Security/CWE-209/StackTraceExposure.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-215/FlaskDebug.ql.
+[16/40] Found in cache: /study/queries/python/ql/src/Security/CWE-215/FlaskDebug.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-285/PamAuthorization.ql.
+[17/40] Found in cache: /study/queries/python/ql/src/Security/CWE-285/PamAuthorization.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-295/MissingHostKeyValidation.ql.
+[18/40] Found in cache: /study/queries/python/ql/src/Security/CWE-295/MissingHostKeyValidation.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-295/RequestWithoutValidation.ql.
+[19/40] Found in cache: /study/queries/python/ql/src/Security/CWE-295/RequestWithoutValidation.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-312/CleartextLogging.ql.
+[20/40] Found in cache: /study/queries/python/ql/src/Security/CWE-312/CleartextLogging.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-312/CleartextStorage.ql.
+[21/40] Found in cache: /study/queries/python/ql/src/Security/CWE-312/CleartextStorage.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-326/WeakCryptoKey.ql.
+[22/40] Found in cache: /study/queries/python/ql/src/Security/CWE-326/WeakCryptoKey.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-327/BrokenCryptoAlgorithm.ql.
+[23/40] Found in cache: /study/queries/python/ql/src/Security/CWE-327/BrokenCryptoAlgorithm.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-327/InsecureDefaultProtocol.ql.
+[24/40] Found in cache: /study/queries/python/ql/src/Security/CWE-327/InsecureDefaultProtocol.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-327/InsecureProtocol.ql.
+[25/40] Found in cache: /study/queries/python/ql/src/Security/CWE-327/InsecureProtocol.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-327/WeakSensitiveDataHashing.ql.
+[26/40] Found in cache: /study/queries/python/ql/src/Security/CWE-327/WeakSensitiveDataHashing.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-352/CSRFProtectionDisabled.ql.
+[27/40] Found in cache: /study/queries/python/ql/src/Security/CWE-352/CSRFProtectionDisabled.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-377/InsecureTemporaryFile.ql.
+[28/40] Found in cache: /study/queries/python/ql/src/Security/CWE-377/InsecureTemporaryFile.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-502/UnsafeDeserialization.ql.
+[29/40] Found in cache: /study/queries/python/ql/src/Security/CWE-502/UnsafeDeserialization.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-601/UrlRedirect.ql.
+[30/40] Found in cache: /study/queries/python/ql/src/Security/CWE-601/UrlRedirect.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-611/Xxe.ql.
+[31/40] Found in cache: /study/queries/python/ql/src/Security/CWE-611/Xxe.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-643/XpathInjection.ql.
+[32/40] Found in cache: /study/queries/python/ql/src/Security/CWE-643/XpathInjection.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-730/PolynomialReDoS.ql.
+[33/40] Found in cache: /study/queries/python/ql/src/Security/CWE-730/PolynomialReDoS.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-730/ReDoS.ql.
+[34/40] Found in cache: /study/queries/python/ql/src/Security/CWE-730/ReDoS.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-730/RegexInjection.ql.
+[35/40] Found in cache: /study/queries/python/ql/src/Security/CWE-730/RegexInjection.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-732/WeakFilePermissions.ql.
+[36/40] Found in cache: /study/queries/python/ql/src/Security/CWE-732/WeakFilePermissions.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-776/XmlBomb.ql.
+[37/40] Found in cache: /study/queries/python/ql/src/Security/CWE-776/XmlBomb.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-798/HardcodedCredentials.ql.
+[38/40] Found in cache: /study/queries/python/ql/src/Security/CWE-798/HardcodedCredentials.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-918/FullServerSideRequestForgery.ql.
+[39/40] Found in cache: /study/queries/python/ql/src/Security/CWE-918/FullServerSideRequestForgery.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-918/PartialServerSideRequestForgery.ql.
+[40/40] Found in cache: /study/queries/python/ql/src/Security/CWE-918/PartialServerSideRequestForgery.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-020-ExternalAPIs/ExternalAPIsUsedWithUntrustedData.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-020-ExternalAPIs/UntrustedDataToExternalAPI.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-020/IncompleteHostnameRegExp.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-020/IncompleteUrlSubstringSanitization.ql.
+[1/40 eval 1.2s] Evaluation done; writing results to codeql/python-queries/Security/CWE-020/IncompleteUrlSubstringSanitization.bqrs.
+Starting evaluation of codeql/python-queries/Security/CWE-022/PathInjection.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-022/TarSlip.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-078/CommandInjection.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-079/Jinja2WithoutEscaping.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-079/ReflectedXss.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-089/SqlInjection.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-090/LdapInjection.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-094/CodeInjection.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-116/BadTagFilter.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-117/LogInjection.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-209/StackTraceExposure.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-215/FlaskDebug.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-285/PamAuthorization.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-295/MissingHostKeyValidation.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-295/RequestWithoutValidation.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-312/CleartextLogging.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-312/CleartextStorage.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-326/WeakCryptoKey.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-327/BrokenCryptoAlgorithm.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-327/InsecureDefaultProtocol.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-327/InsecureProtocol.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-327/WeakSensitiveDataHashing.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-352/CSRFProtectionDisabled.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-377/InsecureTemporaryFile.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-502/UnsafeDeserialization.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-601/UrlRedirect.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-611/Xxe.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-643/XpathInjection.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-730/PolynomialReDoS.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-730/ReDoS.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-730/RegexInjection.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-732/WeakFilePermissions.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-776/XmlBomb.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-798/HardcodedCredentials.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-918/FullServerSideRequestForgery.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-918/PartialServerSideRequestForgery.ql.
+[2/40 eval 1m56s] Evaluation done; writing results to codeql/python-queries/Security/CWE-798/HardcodedCredentials.bqrs.
+[3/40 eval 1m56s] Evaluation done; writing results to codeql/python-queries/Security/CWE-776/XmlBomb.bqrs.
+[4/40 eval 1m56s] Evaluation done; writing results to codeql/python-queries/Security/CWE-730/RegexInjection.bqrs.
+[5/40 eval 1m58s] Evaluation done; writing results to codeql/python-queries/Security/CWE-611/Xxe.bqrs.
+[6/40 eval 1m56s] Evaluation done; writing results to codeql/python-queries/Security/CWE-730/ReDoS.bqrs.
+[7/40 eval 1m57s] Evaluation done; writing results to codeql/python-queries/Security/CWE-730/PolynomialReDoS.bqrs.
+[8/40 eval 1m57s] Evaluation done; writing results to codeql/python-queries/Security/CWE-643/XpathInjection.bqrs.
+[9/40 eval 1m58s] Evaluation done; writing results to codeql/python-queries/Security/CWE-601/UrlRedirect.bqrs.
+[10/40 eval 1m58s] Evaluation done; writing results to codeql/python-queries/Security/CWE-502/UnsafeDeserialization.bqrs.
+[11/40 eval 1m58s] Evaluation done; writing results to codeql/python-queries/Security/CWE-327/WeakSensitiveDataHashing.bqrs.
+[12/40 eval 1m58s] Evaluation done; writing results to codeql/python-queries/Security/CWE-377/InsecureTemporaryFile.bqrs.
+[13/40 eval 1m58s] Evaluation done; writing results to codeql/python-queries/Security/CWE-327/InsecureProtocol.bqrs.
+[14/40 eval 1m59s] Evaluation done; writing results to codeql/python-queries/Security/CWE-312/CleartextStorage.bqrs.
+[15/40 eval 1m56s] Evaluation done; writing results to codeql/python-queries/Security/CWE-732/WeakFilePermissions.bqrs.
+[16/40 eval 1m59s] Evaluation done; writing results to codeql/python-queries/Security/CWE-327/BrokenCryptoAlgorithm.bqrs.
+[17/40 eval 1m59s] Evaluation done; writing results to codeql/python-queries/Security/CWE-326/WeakCryptoKey.bqrs.
+[18/40 eval 2m0s] Evaluation done; writing results to codeql/python-queries/Security/CWE-312/CleartextLogging.bqrs.
+[19/40 eval 2m1s] Evaluation done; writing results to codeql/python-queries/Security/CWE-117/LogInjection.bqrs.
+[20/40 eval 2m0s] Evaluation done; writing results to codeql/python-queries/Security/CWE-295/RequestWithoutValidation.bqrs.
+[21/40 eval 2m1s] Evaluation done; writing results to codeql/python-queries/Security/CWE-285/PamAuthorization.bqrs.
+[22/40 eval 2m1s] Evaluation done; writing results to codeql/python-queries/Security/CWE-215/FlaskDebug.bqrs.
+[23/40 eval 2m1s] Evaluation done; writing results to codeql/python-queries/Security/CWE-209/StackTraceExposure.bqrs.
+[24/40 eval 2m1s] Evaluation done; writing results to codeql/python-queries/Security/CWE-116/BadTagFilter.bqrs.
+[25/40 eval 2m1s] Evaluation done; writing results to codeql/python-queries/Security/CWE-094/CodeInjection.bqrs.
+[26/40 eval 2m2s] Evaluation done; writing results to codeql/python-queries/Security/CWE-090/LdapInjection.bqrs.
+[27/40 eval 2m2s] Evaluation done; writing results to codeql/python-queries/Security/CWE-079/ReflectedXss.bqrs.
+[28/40 eval 2m2s] Evaluation done; writing results to codeql/python-queries/Security/CWE-089/SqlInjection.bqrs.
+[29/40 eval 2m10s] Evaluation done; writing results to codeql/python-queries/Security/CWE-022/PathInjection.bqrs.
+[30/40 eval 2m3s] Evaluation done; writing results to codeql/python-queries/Security/CWE-079/Jinja2WithoutEscaping.bqrs.
+[31/40 eval 2m3s] Evaluation done; writing results to codeql/python-queries/Security/CWE-078/CommandInjection.bqrs.
+[32/40 eval 2m9s] Evaluation done; writing results to codeql/python-queries/Security/CWE-022/TarSlip.bqrs.
+[33/40 eval 3m1s] Evaluation done; writing results to codeql/python-queries/Security/CWE-020/IncompleteHostnameRegExp.bqrs.
+[34/40 eval 3m1s] Evaluation done; writing results to codeql/python-queries/Security/CWE-020-ExternalAPIs/UntrustedDataToExternalAPI.bqrs.
+[35/40 eval 3m1s] Evaluation done; writing results to codeql/python-queries/Security/CWE-020-ExternalAPIs/ExternalAPIsUsedWithUntrustedData.bqrs.
+[36/40 eval 1m59s] Evaluation done; writing results to codeql/python-queries/Security/CWE-327/InsecureDefaultProtocol.bqrs.
+[37/40 eval 2m1s] Evaluation done; writing results to codeql/python-queries/Security/CWE-295/MissingHostKeyValidation.bqrs.
+[38/40 eval 1m59s] Evaluation done; writing results to codeql/python-queries/Security/CWE-352/CSRFProtectionDisabled.bqrs.
+[39/40 eval 1m56s] Evaluation done; writing results to codeql/python-queries/Security/CWE-918/FullServerSideRequestForgery.bqrs.
+[40/40 eval 2m0s] Evaluation done; writing results to codeql/python-queries/Security/CWE-918/PartialServerSideRequestForgery.bqrs.
+Shutting down query evaluator.
+EVALUATION_EXIT_Copilot:0
+BEGIN_TABLE_BQRS_Copilot
+AgEYGGJ1aWx0aW5zLmV4ZWMgW3BhcmFtIDBdRwEII3NlbGVjdAEDDGV4dGVybmFsQXBpZWkBAA1u
+dW1iZXJPZlVzZXNpGW51bWJlck9mVW50cnVzdGVkU291cmNlc2kAAAEB
+END_TABLE_BQRS_Copilot
+ALERT_QUERIES_Copilot:39
+Interpreting /study/queries/python/ql/src/Security/CWE-020-ExternalAPIs/UntrustedDataToExternalAPI.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-020/IncompleteHostnameRegExp.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-020/IncompleteUrlSubstringSanitization.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-022/PathInjection.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-022/TarSlip.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-078/CommandInjection.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-079/Jinja2WithoutEscaping.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-079/ReflectedXss.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-089/SqlInjection.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-090/LdapInjection.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-094/CodeInjection.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-116/BadTagFilter.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-117/LogInjection.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-209/StackTraceExposure.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-215/FlaskDebug.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-285/PamAuthorization.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-295/MissingHostKeyValidation.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-295/RequestWithoutValidation.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-312/CleartextLogging.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-312/CleartextStorage.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-326/WeakCryptoKey.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-327/BrokenCryptoAlgorithm.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-327/InsecureDefaultProtocol.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-327/InsecureProtocol.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-327/WeakSensitiveDataHashing.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-352/CSRFProtectionDisabled.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-377/InsecureTemporaryFile.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-502/UnsafeDeserialization.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-601/UrlRedirect.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-611/Xxe.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-643/XpathInjection.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-730/PolynomialReDoS.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-730/ReDoS.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-730/RegexInjection.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-732/WeakFilePermissions.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-776/XmlBomb.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-798/HardcodedCredentials.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-918/FullServerSideRequestForgery.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-918/PartialServerSideRequestForgery.ql...
+ANALYZE_EXIT_Copilot:0
+BEGIN_CODEQL_Copilot
+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
+END_CODEQL_Copilot
+ANALYZE_START_InCoder
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-020-ExternalAPIs/ExternalAPIsUsedWithUntrustedData.ql.
+[1/40] Found in cache: /study/queries/python/ql/src/Security/CWE-020-ExternalAPIs/ExternalAPIsUsedWithUntrustedData.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-020-ExternalAPIs/UntrustedDataToExternalAPI.ql.
+[2/40] Found in cache: /study/queries/python/ql/src/Security/CWE-020-ExternalAPIs/UntrustedDataToExternalAPI.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-020/IncompleteHostnameRegExp.ql.
+[3/40] Found in cache: /study/queries/python/ql/src/Security/CWE-020/IncompleteHostnameRegExp.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-020/IncompleteUrlSubstringSanitization.ql.
+[4/40] Found in cache: /study/queries/python/ql/src/Security/CWE-020/IncompleteUrlSubstringSanitization.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-022/PathInjection.ql.
+[5/40] Found in cache: /study/queries/python/ql/src/Security/CWE-022/PathInjection.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-022/TarSlip.ql.
+[6/40] Found in cache: /study/queries/python/ql/src/Security/CWE-022/TarSlip.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-078/CommandInjection.ql.
+[7/40] Found in cache: /study/queries/python/ql/src/Security/CWE-078/CommandInjection.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-079/Jinja2WithoutEscaping.ql.
+[8/40] Found in cache: /study/queries/python/ql/src/Security/CWE-079/Jinja2WithoutEscaping.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-079/ReflectedXss.ql.
+[9/40] Found in cache: /study/queries/python/ql/src/Security/CWE-079/ReflectedXss.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-089/SqlInjection.ql.
+[10/40] Found in cache: /study/queries/python/ql/src/Security/CWE-089/SqlInjection.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-090/LdapInjection.ql.
+[11/40] Found in cache: /study/queries/python/ql/src/Security/CWE-090/LdapInjection.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-094/CodeInjection.ql.
+[12/40] Found in cache: /study/queries/python/ql/src/Security/CWE-094/CodeInjection.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-116/BadTagFilter.ql.
+[13/40] Found in cache: /study/queries/python/ql/src/Security/CWE-116/BadTagFilter.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-117/LogInjection.ql.
+[14/40] Found in cache: /study/queries/python/ql/src/Security/CWE-117/LogInjection.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-209/StackTraceExposure.ql.
+[15/40] Found in cache: /study/queries/python/ql/src/Security/CWE-209/StackTraceExposure.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-215/FlaskDebug.ql.
+[16/40] Found in cache: /study/queries/python/ql/src/Security/CWE-215/FlaskDebug.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-285/PamAuthorization.ql.
+[17/40] Found in cache: /study/queries/python/ql/src/Security/CWE-285/PamAuthorization.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-295/MissingHostKeyValidation.ql.
+[18/40] Found in cache: /study/queries/python/ql/src/Security/CWE-295/MissingHostKeyValidation.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-295/RequestWithoutValidation.ql.
+[19/40] Found in cache: /study/queries/python/ql/src/Security/CWE-295/RequestWithoutValidation.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-312/CleartextLogging.ql.
+[20/40] Found in cache: /study/queries/python/ql/src/Security/CWE-312/CleartextLogging.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-312/CleartextStorage.ql.
+[21/40] Found in cache: /study/queries/python/ql/src/Security/CWE-312/CleartextStorage.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-326/WeakCryptoKey.ql.
+[22/40] Found in cache: /study/queries/python/ql/src/Security/CWE-326/WeakCryptoKey.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-327/BrokenCryptoAlgorithm.ql.
+[23/40] Found in cache: /study/queries/python/ql/src/Security/CWE-327/BrokenCryptoAlgorithm.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-327/InsecureDefaultProtocol.ql.
+[24/40] Found in cache: /study/queries/python/ql/src/Security/CWE-327/InsecureDefaultProtocol.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-327/InsecureProtocol.ql.
+[25/40] Found in cache: /study/queries/python/ql/src/Security/CWE-327/InsecureProtocol.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-327/WeakSensitiveDataHashing.ql.
+[26/40] Found in cache: /study/queries/python/ql/src/Security/CWE-327/WeakSensitiveDataHashing.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-352/CSRFProtectionDisabled.ql.
+[27/40] Found in cache: /study/queries/python/ql/src/Security/CWE-352/CSRFProtectionDisabled.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-377/InsecureTemporaryFile.ql.
+[28/40] Found in cache: /study/queries/python/ql/src/Security/CWE-377/InsecureTemporaryFile.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-502/UnsafeDeserialization.ql.
+[  964.996051] hrtimer: interrupt took 4343764 ns
+[29/40] Found in cache: /study/queries/python/ql/src/Security/CWE-502/UnsafeDeserialization.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-601/UrlRedirect.ql.
+[30/40] Found in cache: /study/queries/python/ql/src/Security/CWE-601/UrlRedirect.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-611/Xxe.ql.
+[31/40] Found in cache: /study/queries/python/ql/src/Security/CWE-611/Xxe.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-643/XpathInjection.ql.
+[32/40] Found in cache: /study/queries/python/ql/src/Security/CWE-643/XpathInjection.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-730/PolynomialReDoS.ql.
+[33/40] Found in cache: /study/queries/python/ql/src/Security/CWE-730/PolynomialReDoS.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-730/ReDoS.ql.
+[34/40] Found in cache: /study/queries/python/ql/src/Security/CWE-730/ReDoS.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-730/RegexInjection.ql.
+[35/40] Found in cache: /study/queries/python/ql/src/Security/CWE-730/RegexInjection.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-732/WeakFilePermissions.ql.
+[36/40] Found in cache: /study/queries/python/ql/src/Security/CWE-732/WeakFilePermissions.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-776/XmlBomb.ql.
+[37/40] Found in cache: /study/queries/python/ql/src/Security/CWE-776/XmlBomb.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-798/HardcodedCredentials.ql.
+[38/40] Found in cache: /study/queries/python/ql/src/Security/CWE-798/HardcodedCredentials.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-918/FullServerSideRequestForgery.ql.
+[39/40] Found in cache: /study/queries/python/ql/src/Security/CWE-918/FullServerSideRequestForgery.ql.
+Compiling query plan for /study/queries/python/ql/src/Security/CWE-918/PartialServerSideRequestForgery.ql.
+[40/40] Found in cache: /study/queries/python/ql/src/Security/CWE-918/PartialServerSideRequestForgery.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-020-ExternalAPIs/UntrustedDataToExternalAPI.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-020-ExternalAPIs/ExternalAPIsUsedWithUntrustedData.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-020/IncompleteHostnameRegExp.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-020/IncompleteUrlSubstringSanitization.ql.
+[1/40 eval 574ms] Evaluation done; writing results to codeql/python-queries/Security/CWE-020/IncompleteUrlSubstringSanitization.bqrs.
+Starting evaluation of codeql/python-queries/Security/CWE-022/PathInjection.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-022/TarSlip.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-078/CommandInjection.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-079/Jinja2WithoutEscaping.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-079/ReflectedXss.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-089/SqlInjection.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-090/LdapInjection.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-094/CodeInjection.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-116/BadTagFilter.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-117/LogInjection.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-209/StackTraceExposure.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-215/FlaskDebug.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-285/PamAuthorization.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-295/MissingHostKeyValidation.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-295/RequestWithoutValidation.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-312/CleartextLogging.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-312/CleartextStorage.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-326/WeakCryptoKey.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-327/BrokenCryptoAlgorithm.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-327/InsecureDefaultProtocol.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-327/InsecureProtocol.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-327/WeakSensitiveDataHashing.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-352/CSRFProtectionDisabled.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-377/InsecureTemporaryFile.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-502/UnsafeDeserialization.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-601/UrlRedirect.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-611/Xxe.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-643/XpathInjection.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-730/PolynomialReDoS.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-730/ReDoS.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-730/RegexInjection.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-732/WeakFilePermissions.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-776/XmlBomb.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-798/HardcodedCredentials.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-918/FullServerSideRequestForgery.ql.
+Starting evaluation of codeql/python-queries/Security/CWE-918/PartialServerSideRequestForgery.ql.
+[2/40 eval 1m49s] Evaluation done; writing results to codeql/python-queries/Security/CWE-798/HardcodedCredentials.bqrs.
+[3/40 eval 1m49s] Evaluation done; writing results to codeql/python-queries/Security/CWE-776/XmlBomb.bqrs.
+[4/40 eval 1m49s] Evaluation done; writing results to codeql/python-queries/Security/CWE-730/RegexInjection.bqrs.
+[5/40 eval 1m50s] Evaluation done; writing results to codeql/python-queries/Security/CWE-611/Xxe.bqrs.
+[6/40 eval 1m49s] Evaluation done; writing results to codeql/python-queries/Security/CWE-730/ReDoS.bqrs.
+[7/40 eval 1m49s] Evaluation done; writing results to codeql/python-queries/Security/CWE-730/PolynomialReDoS.bqrs.
+[8/40 eval 1m49s] Evaluation done; writing results to codeql/python-queries/Security/CWE-643/XpathInjection.bqrs.
+[9/40 eval 1m50s] Evaluation done; writing results to codeql/python-queries/Security/CWE-601/UrlRedirect.bqrs.
+[10/40 eval 1m50s] Evaluation done; writing results to codeql/python-queries/Security/CWE-502/UnsafeDeserialization.bqrs.
+[11/40 eval 1m50s] Evaluation done; writing results to codeql/python-queries/Security/CWE-327/WeakSensitiveDataHashing.bqrs.
+[12/40 eval 1m50s] Evaluation done; writing results to codeql/python-queries/Security/CWE-377/InsecureTemporaryFile.bqrs.
+[13/40 eval 1m50s] Evaluation done; writing results to codeql/python-queries/Security/CWE-327/InsecureProtocol.bqrs.
+[14/40 eval 1m50s] Evaluation done; writing results to codeql/python-queries/Security/CWE-327/BrokenCryptoAlgorithm.bqrs.
+[15/40 eval 1m49s] Evaluation done; writing results to codeql/python-queries/Security/CWE-732/WeakFilePermissions.bqrs.
+[16/40 eval 1m50s] Evaluation done; writing results to codeql/python-queries/Security/CWE-326/WeakCryptoKey.bqrs.
+[17/40 eval 1m50s] Evaluation done; writing results to codeql/python-queries/Security/CWE-312/CleartextStorage.bqrs.
+[18/40 eval 1m51s] Evaluation done; writing results to codeql/python-queries/Security/CWE-312/CleartextLogging.bqrs.
+[19/40 eval 1m51s] Evaluation done; writing results to codeql/python-queries/Security/CWE-117/LogInjection.bqrs.
+[20/40 eval 1m51s] Evaluation done; writing results to codeql/python-queries/Security/CWE-295/RequestWithoutValidation.bqrs.
+[21/40 eval 1m51s] Evaluation done; writing results to codeql/python-queries/Security/CWE-285/PamAuthorization.bqrs.
+[22/40 eval 1m51s] Evaluation done; writing results to codeql/python-queries/Security/CWE-215/FlaskDebug.bqrs.
+[23/40 eval 1m51s] Evaluation done; writing results to codeql/python-queries/Security/CWE-209/StackTraceExposure.bqrs.
+[24/40 eval 1m51s] Evaluation done; writing results to codeql/python-queries/Security/CWE-116/BadTagFilter.bqrs.
+[25/40 eval 1m51s] Evaluation done; writing results to codeql/python-queries/Security/CWE-094/CodeInjection.bqrs.
+[26/40 eval 1m51s] Evaluation done; writing results to codeql/python-queries/Security/CWE-090/LdapInjection.bqrs.
+[27/40 eval 1m51s] Evaluation done; writing results to codeql/python-queries/Security/CWE-089/SqlInjection.bqrs.
+[28/40 eval 1m51s] Evaluation done; writing results to codeql/python-queries/Security/CWE-079/ReflectedXss.bqrs.
+[29/40 eval 1m55s] Evaluation done; writing results to codeql/python-queries/Security/CWE-022/PathInjection.bqrs.
+[30/40 eval 1m51s] Evaluation done; writing results to codeql/python-queries/Security/CWE-079/Jinja2WithoutEscaping.bqrs.
+[31/40 eval 1m52s] Evaluation done; writing results to codeql/python-queries/Security/CWE-078/CommandInjection.bqrs.
+[32/40 eval 1m55s] Evaluation done; writing results to codeql/python-queries/Security/CWE-022/TarSlip.bqrs.
+[33/40 eval 2m36s] Evaluation done; writing results to codeql/python-queries/Security/CWE-020/IncompleteHostnameRegExp.bqrs.
+[34/40 eval 2m36s] Evaluation done; writing results to codeql/python-queries/Security/CWE-020-ExternalAPIs/UntrustedDataToExternalAPI.bqrs.
+[35/40 eval 1m50s] Evaluation done; writing results to codeql/python-queries/Security/CWE-327/InsecureDefaultProtocol.bqrs.
+[36/40 eval 2m36s] Evaluation done; writing results to codeql/python-queries/Security/CWE-020-ExternalAPIs/ExternalAPIsUsedWithUntrustedData.bqrs.
+[37/40 eval 1m51s] Evaluation done; writing results to codeql/python-queries/Security/CWE-295/MissingHostKeyValidation.bqrs.
+[38/40 eval 1m50s] Evaluation done; writing results to codeql/python-queries/Security/CWE-352/CSRFProtectionDisabled.bqrs.
+[39/40 eval 1m49s] Evaluation done; writing results to codeql/python-queries/Security/CWE-918/FullServerSideRequestForgery.bqrs.
+[40/40 eval 1m52s] Evaluation done; writing results to codeql/python-queries/Security/CWE-918/PartialServerSideRequestForgery.bqrs.
+Shutting down query evaluator.
+EVALUATION_EXIT_InCoder:0
+BEGIN_TABLE_BQRS_InCoder
+AgEwGGJ1aWx0aW5zLmV4ZWMgW3BhcmFtIDBdGGJ1aWx0aW5zLm9wZW4gW3BhcmFtIDBdSwEII3Nl
+bGVjdAIDDGV4dGVybmFsQXBpZWkBAA1udW1iZXJPZlVzZXNpGW51bWJlck9mVW50cnVzdGVkU291
+cmNlc2kAAAEBARgBAQ==
+END_TABLE_BQRS_InCoder
+ALERT_QUERIES_InCoder:39
+Interpreting /study/queries/python/ql/src/Security/CWE-020-ExternalAPIs/UntrustedDataToExternalAPI.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-020/IncompleteHostnameRegExp.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-020/IncompleteUrlSubstringSanitization.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-022/PathInjection.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-022/TarSlip.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-078/CommandInjection.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-079/Jinja2WithoutEscaping.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-079/ReflectedXss.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-089/SqlInjection.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-090/LdapInjection.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-094/CodeInjection.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-116/BadTagFilter.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-117/LogInjection.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-209/StackTraceExposure.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-215/FlaskDebug.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-285/PamAuthorization.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-295/MissingHostKeyValidation.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-295/RequestWithoutValidation.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-312/CleartextLogging.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-312/CleartextStorage.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-326/WeakCryptoKey.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-327/BrokenCryptoAlgorithm.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-327/InsecureDefaultProtocol.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-327/InsecureProtocol.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-327/WeakSensitiveDataHashing.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-352/CSRFProtectionDisabled.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-377/InsecureTemporaryFile.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-502/UnsafeDeserialization.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-601/UrlRedirect.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-611/Xxe.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-643/XpathInjection.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-730/PolynomialReDoS.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-730/ReDoS.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-730/RegexInjection.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-732/WeakFilePermissions.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-776/XmlBomb.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-798/HardcodedCredentials.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-918/FullServerSideRequestForgery.ql...
+Interpreting /study/queries/python/ql/src/Security/CWE-918/PartialServerSideRequestForgery.ql...
+ANALYZE_EXIT_InCoder:0
+BEGIN_CODEQL_InCoder
+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
+8cPgu2spWdRgGNXw/Re3esQm1DUAAA==
+END_CODEQL_InCoder
+CODEQL_STUDY_FINISHED
+[ 1231.945642] sysrq: Power Off
+[ 1232.021269] reboot: Power down

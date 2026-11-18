@@ -1,0 +1,48 @@
+{
+  "archival_commit": "ba11cdd3e04035a9057412d7e677b1d4f5e2e41a",
+  "current_commit": "6f4fb70f782c6d47b02ea24341e8ef8c1eb04a6a",
+  "query_commit": "56786790fcf88b79d1d26b946ff36dfe2d6f33ac",
+  "database_extraction": "Windows",
+  "query_evaluation": "Linux",
+  "generators": {
+    "copilot": {
+      "query_directories": 28,
+      "query_files": 40,
+      "alert_queries": 39,
+      "fresh_alerts": 45,
+      "archive_alerts": 44,
+      "exact_location_matches": 43,
+      "mapped_location_matches": 44,
+      "archive_flagged_files": 36,
+      "fresh_flagged_files": 36,
+      "archive_prompt_cwe_flags": 24,
+      "fresh_prompt_cwe_flags": 24,
+      "any_flag_fresh_only": [],
+      "any_flag_archive_only": [],
+      "prompt_cwe_fresh_only": [],
+      "prompt_cwe_archive_only": []
+    },
+    "incoder": {
+      "query_directories": 28,
+      "query_files": 40,
+      "alert_queries": 39,
+      "fresh_alerts": 40,
+      "archive_alerts": 37,
+      "exact_location_matches": 36,
+      "mapped_location_matches": 37,
+      "archive_flagged_files": 30,
+      "fresh_flagged_files": 31,
+      "archive_prompt_cwe_flags": 20,
+      "fresh_prompt_cwe_flags": 20,
+      "any_flag_fresh_only": [
+        [
+          "CWE-297",
+          "sonar_3.py"
+        ]
+      ],
+      "any_flag_archive_only": [],
+      "prompt_cwe_fresh_only": [],
+      "prompt_cwe_archive_only": []
+    }
+  }
+}

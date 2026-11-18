@@ -1,0 +1,72 @@
+{
+  "source_commit": "6f4fb70f782c6d47b02ea24341e8ef8c1eb04a6a",
+  "query_commit": "56786790fcf88b79d1d26b946ff36dfe2d6f33ac",
+  "generators": {
+    "copilot": {
+      "directories": [
+        "CWE-020-ExternalAPIs",
+        "CWE-020",
+        "CWE-022",
+        "CWE-078",
+        "CWE-079",
+        "CWE-089",
+        "CWE-090",
+        "CWE-094",
+        "CWE-116",
+        "CWE-117",
+        "CWE-209",
+        "CWE-215",
+        "CWE-285",
+        "CWE-295",
+        "CWE-312",
+        "CWE-326",
+        "CWE-327",
+        "CWE-352",
+        "CWE-377",
+        "CWE-502",
+        "CWE-601",
+        "CWE-611",
+        "CWE-643",
+        "CWE-730",
+        "CWE-732",
+        "CWE-776",
+        "CWE-798",
+        "CWE-918"
+      ],
+      "missing_in_release": []
+    },
+    "incoder": {
+      "directories": [
+        "CWE-020-ExternalAPIs",
+        "CWE-020",
+        "CWE-022",
+        "CWE-078",
+        "CWE-079",
+        "CWE-089",
+        "CWE-090",
+        "CWE-094",
+        "CWE-116",
+        "CWE-117",
+        "CWE-209",
+        "CWE-215",
+        "CWE-285",
+        "CWE-295",
+        "CWE-312",
+        "CWE-326",
+        "CWE-327",
+        "CWE-352",
+        "CWE-377",
+        "CWE-502",
+        "CWE-601",
+        "CWE-611",
+        "CWE-643",
+        "CWE-730",
+        "CWE-732",
+        "CWE-776",
+        "CWE-798",
+        "CWE-918"
+      ],
+      "missing_in_release": []
+    }
+  }
+}
