@@ -8,7 +8,7 @@ This project evaluates how scanner provenance and evaluation design affect vulne
 
 ## Dataset and setup
 
-The public data/feature_table.csv contains 260 rows and 70 columns of benchmark labels, identifiers, scanner flags, and numeric features. codeql_flagged represents the benchmark prompt-CWE definition. Source text is restored from pinned upstream Git objects with the supplied script.
+The public data/feature_table.csv contains 260 rows and 70 columns of benchmark labels, identifiers, scanner flags, and numeric features. codeql_flagged represents any exported CodeQL alert (66 flagged files). The benchmark prompt-CWE summary flags 44 files. The code/verify_results.py script derives that alternative definition from the pinned benchmark summaries. Source text is restored from pinned upstream Git objects with the supplied script.
 
 Use Python 3.12 in a virtual environment. The reference evaluation used Python 3.12.14.
 
@@ -32,3 +32,7 @@ Run scripts with --help for their required inputs. Scanner report comparisons re
 Precision measures agreement with file-level benchmark labels. Confirming that alerts identify the intended weaknesses requires independent review. Classifier hyperparameters are fixed, while inner validation selects thresholds and, in the joint procedure, classifier identity.
 
 Data derives from [SecurityEval](https://github.com/s2e-lab/SecurityEval) and scanner evidence. Consult the upstream repository for source provenance and applicable terms.
+
+## Reference validation
+
+The published code passed all eight evaluation tests. The source-restoration command recreates all 260 records of the reference model-input table. Additional scanner comparisons require their archived or fresh reports as described above.
