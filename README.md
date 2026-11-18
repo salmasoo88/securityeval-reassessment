@@ -1,5 +1,7 @@
 # SecurityEval Reassessment
 
+Reproducible Evaluation of AI-Generated Python Vulnerability Detection
+
 ## Process abstract
 
 This project evaluates how scanner provenance and evaluation design affect vulnerability detection on AI-generated Python. It uses 260 legacy SecurityEval completions from Copilot and InCoder across 130 paired prompts. Scanner findings are attributed to individual files. Five classifiers are compared with static-analysis baselines using prompt-grouped and CWE-grouped evaluation, training-only preprocessing, and nested threshold selection. Feature ablations, cross-generator transfer, formatting sensitivity, paired statistical comparisons, and scanner reproduction checks examine effects on review workload and missed benchmark positives. Findings concern this legacy cohort. Independent weakness adjudication and validation on current generators remain necessary.
